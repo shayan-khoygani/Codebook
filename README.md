@@ -4,8 +4,8 @@ Documenting existing raw data files of DaanMatch with information about location
 Contributors (alphabetical by last name):
 Patrick Guo (patrickguo@berkeley.edu)
 
-# Project status
-Healthy
-
-# Folder directory
+## Folder directory
 Each folder contains the raw data + notebook, html, pdf version of its corresponding codebook.
+
+## Project status
+Healthy
