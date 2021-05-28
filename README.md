@@ -2,10 +2,10 @@
 Documenting existing raw data files of DaanMatch with information about location, owner, "version", source etc.
 
 # Instructions
-- Follow the format in ```Andaman_Nicobar_Islands_2016``` and create a codebook that documents our raw data files. 
-- Identify any issues with the dataset i.e. missing/invalid/duplicate values and summary statistics/distribution of each column if available. 
-- Help us identify whether some raw data files are duplicates of each other.
-- After you're done with a datafile, please add it's folder to the repository and add COMPLETE next to the entry from the DataFiles list below.
+1. Follow the format in ```Andaman_Nicobar_Islands_2016``` and create a codebook that documents our raw data files.
+2. Identify any issues with the dataset i.e. missing/invalid/duplicate values and summary statistics/distribution of each column if available. 
+3. Help us identify whether some raw data files are duplicates of each other.
+4. After you're done with a datafile, please add it's folder to the repository and add COMPLETE next to the entry from the DataFiles list below.
 
 ## Folder directory
 Each folder contains the raw data + notebook, html, pdf version of its corresponding codebook.
