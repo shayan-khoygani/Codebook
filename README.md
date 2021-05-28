@@ -6,6 +6,7 @@ Documenting existing raw data files of DaanMatch with information about location
 2. Identify any issues with the dataset i.e. missing/invalid/duplicate values and summary statistics/distribution of each column if available. 
 3. Help us identify whether some raw data files are duplicates of each other.
 4. After you're done with a datafile, please add it's folder to the repository and add COMPLETE next to the entry from the DataFiles list below.
+
 Message in the #codebook channel is slack for any issues.
 
 ## Folder directory
