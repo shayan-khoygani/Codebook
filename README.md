@@ -1,8 +1,9 @@
 # Codebook
 Documenting existing raw data files of DaanMatch with information about location, owner, "version", source etc.
 
-Contributors (alphabetical by last name):
-Patrick Guo (patrickguo@berkeley.edu)
+# Instructions
+- Follow the format in ```Andaman_Nicobar_Islands_2016``` and create a codebook that documents our raw data files. 
+- Identify any issues with the dataset i.e. missing/invalid values and summary statistics/distribution of each column if available. 
 
 ## Folder directory
 Each folder contains the raw data + notebook, html, pdf version of its corresponding codebook.
