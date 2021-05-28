@@ -10,7 +10,8 @@ Documenting existing raw data files of DaanMatch with information about location
 Message in the #codebook channel is slack for any issues.
 
 ## Folder directory
-Each folder contains the raw data + notebook, html, pdf version of its corresponding codebook.
+Each folder contains the raw data + notebook, html, pdf version of its corresponding codebook.  
+We are working on transfering all files to AWS cloud, so we will fetch it from there in the future. For now, we will have a duplicate stored in the repository, so it can be loaded into the notebooks.
 
 ## Project status
 Healthy
