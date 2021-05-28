@@ -2,18 +2,26 @@
 Documenting existing raw data files of DaanMatch with information about location, owner, "version", source etc.
 
 # Instructions
-- Follow the format in ```Andaman_Nicobar_Islands_2016``` and create a codebook that documents our raw data files. 
-- Identify any issues with the dataset i.e. missing/invalid/duplicate values and summary statistics/distribution of each column if available. 
-- Help us identify whether some raw data files are duplicates of each other.
+1. Follow the format in ```Andaman_Nicobar_Islands_2016``` and create a codebook that documents our raw data files.
+2. Identify any issues with the dataset i.e. missing/invalid/duplicate values and summary statistics/distribution of each column if available. 
+3. Help us identify whether some raw data files are duplicates of each other.
+4. After you're done with a datafile, please add it's folder to the repository and add COMPLETE next to the entry from the DataFiles list below.
+
+Message in the #codebook channel is slack for any issues.
 
 ## Folder directory
-Each folder contains the raw data + notebook, html, pdf version of its corresponding codebook.
+Each folder contains the raw data + notebook, html, pdf version of its corresponding codebook.  
+We are working on transfering all files to AWS cloud, so we will fetch it from there in the future. For now, we will have a duplicate stored in the repository, so it can be loaded into the notebooks.
 
 ## Project status
 Healthy
 
-# Unprocessed
-- [Andhra Pradesh Gram Panchayat.xlsx](https://www.dropbox.com/home/DaanMatch_DataFiles?preview=Andaman_Nicobar_Islands_2016.xlsx)
+# DataFiles
+[Dropbox](https://www.dropbox.com/sh/33s9o3eipk8t7j5/AACq2FvtfdHRXNU0rgFYqvoqa?dl=0)
+
+- Andaman_Nicobar_Islands_2016.xlsx COMPLETE
+### 1
+- Andhra Pradesh Gram Panchayat.xlsx
 - Andhra_Pradesh_2016.xlsx
 - Arunachal_Pradesh_2016.xlsx
 - Assam GP.xls
@@ -23,6 +31,8 @@ Healthy
 - CSR 2016_2017.xlsx
 - CSR Spent 17-18 (1).xlsx
 - CSR Spent 17-18.xlsx
+
+### 2
 - CSRExpenditureDetails_2015_16_29042017.xlsx
 - Chandigarh_2016.xlsx
 - Chattisgarh_2016.xlsx
@@ -33,6 +43,8 @@ Healthy
 - Consolidated_NGO_list.xlsx
 - Copy of Online Donations For COVID In Pakistan  (1).xlsx
 - Dadar_Nagar_Haveli_2016.xlsx
+
+### 3
 - Dadra & Nagar Haveli.xls
 - Daman_and_Diu_2016.xlsx
 - DarpanBihar3192020.xlsx
@@ -45,6 +57,8 @@ Healthy
 - Expenditure_Gov_India_2017-18_2019-20.csv
 - Final details proforma_panchayat.xlsx
 - Final_Data_Globalgiving.org.xlsx
+
+### 4
 - Final_Data_Indiangoslist.com.xlsx
 - Final_Data_Indiangoslist_v1.com.xlsx
 - Final_Data_csr.gov.in.xlsx
@@ -56,14 +70,15 @@ Healthy
 - West_Bengal_2016.xlsx
 - biharselection.xlsx
 - copyFinal_Data_csr.gov.in.xlsx
+
+### 5
 - covid-relief data sheet apr 17 copy.xlsx
 - imf-dm-export-20200923.xls
 - statistic_id240551_global-survey_-share-who-want-to-help-people-less-fortunate-than-themsleves-in-2012.xlsx
+#### Inside ```from Shekhar``` folder (add Shekar to folder name because these may be duplicates to #4):
 - Final_Data_Globalgiving.org.xlsx
 - Final_Data_Indiangoslist_v1.com (1).xlsx
 - Final_Data_givingtuesdayindia.org.xlsx
 - Final_Data_ngodarpan.gov.in (1).xlsx
 - Final_Data_ngodarpan.gov.in.xlsx
 - Final_Data_ngoimpact.com.xlsx
-- Cosolidated NGO list.xlsx
-- Final_Data_Indiangoslist_v1.com.xlsx
