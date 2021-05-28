@@ -5,6 +5,7 @@ Documenting existing raw data files of DaanMatch with information about location
 - Follow the format in ```Andaman_Nicobar_Islands_2016``` and create a codebook that documents our raw data files. 
 - Identify any issues with the dataset i.e. missing/invalid/duplicate values and summary statistics/distribution of each column if available. 
 - Help us identify whether some raw data files are duplicates of each other.
+- After you're done with a datafile, please add it's folder to the repository and remove the entry from the Unprocessed list below.
 
 ## Folder directory
 Each folder contains the raw data + notebook, html, pdf version of its corresponding codebook.
