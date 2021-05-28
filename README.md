@@ -5,7 +5,7 @@ Documenting existing raw data files of DaanMatch with information about location
 - Follow the format in ```Andaman_Nicobar_Islands_2016``` and create a codebook that documents our raw data files. 
 - Identify any issues with the dataset i.e. missing/invalid/duplicate values and summary statistics/distribution of each column if available. 
 - Help us identify whether some raw data files are duplicates of each other.
-- After you're done with a datafile, please add it's folder to the repository and remove the entry from the Unprocessed list below.
+- After you're done with a datafile, please add it's folder to the repository and add COMPLETE next to the entry from the DataFiles list below.
 
 ## Folder directory
 Each folder contains the raw data + notebook, html, pdf version of its corresponding codebook.
@@ -13,9 +13,11 @@ Each folder contains the raw data + notebook, html, pdf version of its correspon
 ## Project status
 Healthy
 
-# Unprocessed
+# DataFiles
 [Dropbox](https://www.dropbox.com/sh/33s9o3eipk8t7j5/AACq2FvtfdHRXNU0rgFYqvoqa?dl=0)
 
+- Andaman_Nicobar_Islands_2016.xlsx COMPLETE
+- 
 ### 1
 - Andhra Pradesh Gram Panchayat.xlsx
 - Andhra_Pradesh_2016.xlsx
