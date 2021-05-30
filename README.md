@@ -33,7 +33,7 @@ Healthy
 
 # DataFiles
 - Andaman_Nicobar_Islands_2016.xlsx COMPLETE
-- Andhra Pradesh Gram Panchayat.xlsx IN PROGRESS
+- Andhra Pradesh Gram Panchayat.xlsx COMPLETE
 
 
 ### Ipsha
