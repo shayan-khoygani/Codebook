@@ -1,20 +1,25 @@
 # Codebook
 Documenting existing raw data files of DaanMatch with information about location, owner, "version", source etc.
 
-# Load data from s3
-[Tutorial by soumilshah1995](https://www.youtube.com/watch?v=2hfCRrmFcH0)
+# Getting Started
+- Download AWS CLI and [Configure AWS Key and Secret](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html)
+- ```pip install boto3```
+- ```pip install s3fs```
 
-[Configure AWS Key and Secret](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html)
+- Load data from s3 [Tutorial by soumilshah1995](https://www.youtube.com/watch?v=2hfCRrmFcH0)
+1. To find path for data file, login to AWS console via IAM provided in Slack. 
+2. Go to S3 under all services.
+3. Go to daanmatchdatafiles bucket.
+4. Go to DaanMatch_DataFiles/ folder.
+5. Click a file and find the corresponding S3 URI.
 
-```pip install boto3```
-
-```pip install s3fs```
-
-# Instructions
+# Codebook Instructions
 1. Follow the format in ```Andaman_Nicobar_Islands_2016``` and create a codebook that documents our raw data files.
-2. Identify any issues with the dataset i.e. missing/invalid/duplicate values and summary statistics/distribution of each column if available. 
-3. Help us identify whether some raw data files are duplicates of each other.
-4. After you're done with a datafile, please add it's folder to the repository and add COMPLETE next to the entry from the DataFiles list below.
+2. Identify any issues with the dataset i.e. missing/invalid/duplicate values and summary statistics/distribution of each column if available.
+3. Keep the format uniform until ```Columns```. You have the flexibility to present summary statistics/distributions in whichever format you think best.
+4. Document procedure with comments/markdown.
+5. Help us identify whether some raw data files are duplicates of each other.
+6. After you're done with a datafile, please add it's folder to the repository and add COMPLETE next to the entry from the DataFiles list below.
 
 Message in the #codebook channel is slack for any issues.
 
@@ -26,22 +31,18 @@ We are working on transfering all files to AWS cloud, so we will fetch it from t
 Healthy
 
 # DataFiles
-
 - Andaman_Nicobar_Islands_2016.xlsx COMPLETE
-### 1
-- Andhra Pradesh Gram Panchayat.xlsx
+- Andhra Pradesh Gram Panchayat.xlsx IN PROGRESS
+
+
+### Ipsha
 - Andhra_Pradesh_2016.xlsx
 - Arunachal_Pradesh_2016.xlsx
 - Assam GP.xls
 - Assam_2016.xlsx
 - Bihar Gram Panchayat.xlsx
 - Bihar_2016.xlsx
-- CSR 2016_2017.xlsx
-- CSR Spent 17-18 (1).xlsx
-- CSR Spent 17-18.xlsx
-
-### 2
-- CSRExpenditureDetails_2015_16_29042017.xlsx
+- biharselection.xlsx
 - Chandigarh_2016.xlsx
 - Chattisgarh_2016.xlsx
 - Chhattisgarh Gram Panchayat.xlsx
@@ -50,9 +51,15 @@ Healthy
 - Consolidated_NGO_addresses.xlsx
 - Consolidated_NGO_list.xlsx
 - Copy of Online Donations For COVID In Pakistan  (1).xlsx
-- Dadar_Nagar_Haveli_2016.xlsx
+- copyFinal_Data_csr.gov.in.xlsx
+- covid-relief data sheet apr 17 copy.xlsx
 
-### 3
+### Lauren
+- CSR 2016_2017.xlsx
+- CSR Spent 17-18 (1).xlsx
+- CSR Spent 17-18.xlsx
+- CSRExpenditureDetails_2015_16_29042017.xlsx
+- Dadar_Nagar_Haveli_2016.xlsx
 - Dadra & Nagar Haveli.xls
 - Daman_and_Diu_2016.xlsx
 - DarpanBihar3192020.xlsx
@@ -64,25 +71,20 @@ Healthy
 - Expenditure_Gov_India_2017-18_2019-20 (2).csv
 - Expenditure_Gov_India_2017-18_2019-20.csv
 - Final details proforma_panchayat.xlsx
-- Final_Data_Globalgiving.org.xlsx
 
-### 4
-- Final_Data_Indiangoslist.com.xlsx
-- Final_Data_Indiangoslist_v1.com.xlsx
+### Erica
 - Final_Data_csr.gov.in.xlsx
 - Final_Data_givingtuesdayindia.org (1).xlsx
 - Final_Data_givingtuesdayindia.org.xlsx
+- Final_Data_Globalgiving.org.xlsx
+- Final_Data_Indiangoslist_v1.com.xlsx
+- Final_Data_Indiangoslist.com.xlsx
 - Goa_2016.xlsx
+- imf-dm-export-20200923.xls
 - State-UT wise List of Gram Panchayats Not Covered as on 30.06.2019.pdf
+- statistic_id240551_global-survey_-share-who-want-to-help-people-less-fortunate-than-themsleves-in-2012.xlsx
 - Uttarakhand_2016.xlsx
 - West_Bengal_2016.xlsx
-- biharselection.xlsx
-- copyFinal_Data_csr.gov.in.xlsx
-
-### 5
-- covid-relief data sheet apr 17 copy.xlsx
-- imf-dm-export-20200923.xls
-- statistic_id240551_global-survey_-share-who-want-to-help-people-less-fortunate-than-themsleves-in-2012.xlsx
 #### Inside ```from Shekhar``` folder (add Shekar to folder name because these may be duplicates to #4):
 - Final_Data_Globalgiving.org.xlsx
 - Final_Data_Indiangoslist_v1.com (1).xlsx
