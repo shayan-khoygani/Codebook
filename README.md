@@ -26,7 +26,6 @@ We are working on transfering all files to AWS cloud, so we will fetch it from t
 Healthy
 
 # DataFiles
-[Dropbox](https://www.dropbox.com/sh/33s9o3eipk8t7j5/AACq2FvtfdHRXNU0rgFYqvoqa?dl=0)
 
 - Andaman_Nicobar_Islands_2016.xlsx COMPLETE
 ### 1
