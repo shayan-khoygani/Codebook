@@ -14269,12 +14269,29 @@ Documenting existing data files of DaanMatch with information about location, ow
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[1]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">boto3</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
 <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span> 
 <span class="kn">import</span> <span class="nn">os</span>
 <span class="kn">from</span> <span class="nn">collections</span> <span class="kn">import</span> <span class="n">Counter</span>
 <span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
 <span class="kn">import</span> <span class="nn">statistics</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">client</span> <span class="o">=</span> <span class="n">boto3</span><span class="o">.</span><span class="n">client</span><span class="p">(</span><span class="s1">&#39;s3&#39;</span><span class="p">)</span>
+<span class="n">resource</span> <span class="o">=</span> <span class="n">boto3</span><span class="o">.</span><span class="n">resource</span><span class="p">(</span><span class="s1">&#39;s3&#39;</span><span class="p">)</span>
+<span class="n">my_bucket</span> <span class="o">=</span> <span class="n">resource</span><span class="o">.</span><span class="n">Bucket</span><span class="p">(</span><span class="s1">&#39;my-bucket&#39;</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -14316,7 +14333,6 @@ Documenting existing data files of DaanMatch with information about location, ow
 <p><strong>About this dataset</strong>  <a class="anchor" id="1"></a><br>
 Data provided by: MCA<br>
 Source: <a href="https://www.mca.gov.in/Ministry/pdf/Andaman_Nicobar_Islands_2016.xlsx">https://www.mca.gov.in/Ministry/pdf/Andaman_Nicobar_Islands_2016.xlsx</a><br>
-Stored: <a href="https://www.dropbox.com/sh/43nifucv8kjtxy3/AAAmidU7yxLwjgepdIbgllPIa?dl=0&amp;preview=Andaman_Nicobar_Islands_2016.xlsx">https://www.dropbox.com/sh/43nifucv8kjtxy3/AAAmidU7yxLwjgepdIbgllPIa?dl=0&amp;preview=Andaman_Nicobar_Islands_2016.xlsx</a><br>
 Uploaded by: Cara Foss<br>
 Date uploaded: 9/23/2020, 4:25 PM<br>
 Size: 3.16MB</p>
@@ -14325,10 +14341,10 @@ Size: 3.16MB</p>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[4]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[6]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">path</span> <span class="o">=</span> <span class="p">(</span><span class="s1">&#39;Andaman_Nicobar_Islands_2016.xlsx&#39;</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">path</span> <span class="o">=</span> <span class="s2">&quot;s3://daanmatchdatafiles/DaanMatch_DataFiles/Andaman_Nicobar_Islands_2016.xlsx&quot;</span>
 <span class="n">Andaman_Nicobar_Islands_2016</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">ExcelFile</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">Andaman_Nicobar_Islands_2016</span><span class="o">.</span><span class="n">sheet_names</span><span class="p">)</span>
 <span class="c1"># Combine both sheets</span>
@@ -14365,7 +14381,7 @@ Size: 3.16MB</p>
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[4]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[6]:</div>
 
 
 
