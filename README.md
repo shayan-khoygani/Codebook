@@ -1,6 +1,9 @@
 # Codebook
 Documenting existing raw data files of DaanMatch with information about location, owner, "version", source etc.
 
+# Load data
+```pip install boto3```
+
 # Instructions
 1. Follow the format in ```Andaman_Nicobar_Islands_2016``` and create a codebook that documents our raw data files.
 2. Identify any issues with the dataset i.e. missing/invalid/duplicate values and summary statistics/distribution of each column if available. 
