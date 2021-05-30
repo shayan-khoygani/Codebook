@@ -20,6 +20,7 @@ Documenting existing raw data files of DaanMatch with information about location
 4. Document procedure with comments/markdown.
 5. Help us identify whether some raw data files are duplicates of each other.
 6. After you're done with a datafile, please add it's folder to the repository and add COMPLETE next to the entry from the DataFiles list below.
+7. Summarize codebook onto [google doc](https://docs.google.com/document/d/1gvOvektpmYQeWOvreYzMEHdHcE9J2ZtRva9f92SdYbY/edit)
 
 Message in the #codebook channel is slack for any issues.
 
