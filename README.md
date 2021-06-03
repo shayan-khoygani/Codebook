@@ -13,6 +13,8 @@ Documenting existing raw data files of DaanMatch with information about location
 4. Go to DaanMatch_DataFiles/ folder.
 5. Click a file and find the corresponding S3 URI.
 
+If you cannot connect to s3. Download the file and reference the path there.
+
 # Codebook Instructions
 1. Follow the format in ```Andaman_Nicobar_Islands_2016``` and create a codebook that documents our raw data files.
 2. Identify any issues with the dataset i.e. missing/invalid/duplicate values and summary statistics/distribution of each column if available. Include instructions on how to address the issues by dropping/imputing missing values, transformations (e.g. change units/dtype) etc.
