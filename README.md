@@ -39,6 +39,8 @@ Healthy
 - RAWConsolidated_NGO_list (1).csv IN PROGRESS
 - 42621 Final_Data_ngodarpan.gov.in.xlsx IN PROGRESS
 - Districts-07-.csv COMPLETE
+- Districts--.csv COMPLETE
+- Districts-20-.csv COMPLETE
 
 ### Ipsha
 - Andhra_Pradesh_2016.xlsx
@@ -68,9 +70,7 @@ Healthy
 - Dadra & Nagar Haveli.xls
 - Daman_and_Diu_2016.xlsx
 - DarpanBihar3192020.xlsx
-- Districts--.csv
 - Districts-10-.csv
-- Districts-20-.csv
 - Expenditure_Gov_India_2017-18_2019-20 (1).csv
 - Expenditure_Gov_India_2017-18_2019-20 (2).csv
 - Expenditure_Gov_India_2017-18_2019-20.csv
