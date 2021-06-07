@@ -38,6 +38,7 @@ Healthy
 - Andhra Pradesh Gram Panchayat.xlsx COMPLETE
 - RAWConsolidated_NGO_list (1).csv IN PROGRESS
 - 42621 Final_Data_ngodarpan.gov.in.xlsx IN PROGRESS
+- Districts-07-.csv COMPLETE
 
 ### Ipsha
 - Andhra_Pradesh_2016.xlsx
@@ -68,7 +69,6 @@ Healthy
 - Daman_and_Diu_2016.xlsx
 - DarpanBihar3192020.xlsx
 - Districts--.csv
-- Districts-07-.csv
 - Districts-10-.csv
 - Districts-20-.csv
 - Expenditure_Gov_India_2017-18_2019-20 (1).csv
