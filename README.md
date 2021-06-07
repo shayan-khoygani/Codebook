@@ -41,6 +41,7 @@ Healthy
 - Districts-07-.csv COMPLETE
 - Districts--.csv COMPLETE
 - Districts-20-.csv COMPLETE
+- Districts-10-.csv COMPLETE
 
 ### Ipsha
 - Andhra_Pradesh_2016.xlsx
@@ -70,7 +71,6 @@ Healthy
 - Dadra & Nagar Haveli.xls
 - Daman_and_Diu_2016.xlsx
 - DarpanBihar3192020.xlsx
-- Districts-10-.csv
 - Expenditure_Gov_India_2017-18_2019-20 (1).csv
 - Expenditure_Gov_India_2017-18_2019-20 (2).csv
 - Expenditure_Gov_India_2017-18_2019-20.csv
