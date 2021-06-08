@@ -34,14 +34,17 @@ We are working on transfering all files to AWS cloud, so we will fetch it from t
 Healthy
 
 # DataFiles
-- Andaman_Nicobar_Islands_2016.xlsx COMPLETE
-- Andhra Pradesh Gram Panchayat.xlsx COMPLETE
-- RAWConsolidated_NGO_list (1).csv IN PROGRESS
-- 42621 Final_Data_ngodarpan.gov.in.xlsx IN PROGRESS
+COMPLETE
+- Andaman_Nicobar_Islands_2016.xlsx COMPLETE VERIFIED
+- Andhra Pradesh Gram Panchayat.xlsx COMPLETE VERIFIED
 - Districts-07-.csv COMPLETE
 - Districts--.csv COMPLETE
 - Districts-20-.csv COMPLETE
 - Districts-10-.csv COMPLETE
+
+### Patrick
+- RAWConsolidated_NGO_list (1).csv IN PROGRESS
+- 42621 Final_Data_ngodarpan.gov.in.xlsx IN PROGRESS
 
 ### Ipsha
 - Andhra_Pradesh_2016.xlsx
