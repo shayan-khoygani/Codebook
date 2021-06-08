@@ -37,10 +37,10 @@ Healthy
 COMPLETE
 - Andaman_Nicobar_Islands_2016.xlsx COMPLETE VERIFIED
 - Andhra Pradesh Gram Panchayat.xlsx COMPLETE VERIFIED
-- Districts-07-.csv COMPLETE
-- Districts--.csv COMPLETE
-- Districts-20-.csv COMPLETE
-- Districts-10-.csv COMPLETE
+- Districts-07-.csv COMPLETE VERIFIED
+- Districts--.csv COMPLETE VERIFIED
+- Districts-20-.csv COMPLETE VERIFIED
+- Districts-10-.csv COMPLETE VERIFIED
 
 ### Patrick
 - RAWConsolidated_NGO_list (1).csv IN PROGRESS
