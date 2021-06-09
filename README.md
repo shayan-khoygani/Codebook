@@ -34,13 +34,17 @@ We are working on transfering all files to AWS cloud, so we will fetch it from t
 Healthy
 
 # DataFiles
-- Andaman_Nicobar_Islands_2016.xlsx COMPLETE
-- Andhra Pradesh Gram Panchayat.xlsx COMPLETE
+COMPLETE
+- Andaman_Nicobar_Islands_2016.xlsx COMPLETE VERIFIED
+- Andhra Pradesh Gram Panchayat.xlsx COMPLETE VERIFIED
+- Districts-07-.csv COMPLETE VERIFIED
+- Districts--.csv COMPLETE VERIFIED
+- Districts-20-.csv COMPLETE VERIFIED
+- Districts-10-.csv COMPLETE VERIFIED
+
+### Patrick
 - RAWConsolidated_NGO_list (1).csv IN PROGRESS
 - 42621 Final_Data_ngodarpan.gov.in.xlsx IN PROGRESS
-- Districts-07-.csv COMPLETE
-- Districts--.csv COMPLETE
-- Districts-20-.csv COMPLETE
 
 ### Ipsha
 - Andhra_Pradesh_2016.xlsx
@@ -70,7 +74,6 @@ Healthy
 - Dadra & Nagar Haveli.xls
 - Daman_and_Diu_2016.xlsx
 - DarpanBihar3192020.xlsx
-- Districts-10-.csv
 - Expenditure_Gov_India_2017-18_2019-20 (1).csv
 - Expenditure_Gov_India_2017-18_2019-20 (2).csv
 - Expenditure_Gov_India_2017-18_2019-20.csv
