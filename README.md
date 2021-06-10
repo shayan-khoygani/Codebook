@@ -41,6 +41,7 @@ COMPLETE
 - Districts--.csv COMPLETE VERIFIED
 - Districts-20-.csv COMPLETE VERIFIED
 - Districts-10-.csv COMPLETE VERIFIED
+- Dadra & Nagar Haveli.xls COMPLETE
 
 ### Patrick
 - RAWConsolidated_NGO_list (1).csv IN PROGRESS
@@ -71,7 +72,6 @@ COMPLETE
 - CSR Spent 17-18.xlsx
 - CSRExpenditureDetails_2015_16_29042017.xlsx
 - Dadar_Nagar_Haveli_2016.xlsx
-- Dadra & Nagar Haveli.xls
 - Daman_and_Diu_2016.xlsx
 - DarpanBihar3192020.xlsx
 - Expenditure_Gov_India_2017-18_2019-20 (1).csv
