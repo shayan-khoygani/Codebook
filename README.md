@@ -41,7 +41,7 @@ COMPLETE
 - Districts--.csv COMPLETE VERIFIED
 - Districts-20-.csv COMPLETE VERIFIED
 - Districts-10-.csv COMPLETE VERIFIED
-- Dadra & Nagar Haveli.xls COMPLETE
+- Dadra & Nagar Haveli.xls COMPLETE VERIFIED
 
 ### Patrick
 - RAWConsolidated_NGO_list (1).csv IN PROGRESS
