@@ -44,8 +44,8 @@ COMPLETE
 - Dadra & Nagar Haveli.xls COMPLETE VERIFIED
 
 ### Patrick
-- RAWConsolidated_NGO_list (1).csv IN PROGRESS
 - 42621 Final_Data_ngodarpan.gov.in.xlsx IN PROGRESS
+- RAWConsolidated_NGO_list (1).csv IN PROGRESS
 
 ### Ipsha
 - Andhra_Pradesh_2016.xlsx
