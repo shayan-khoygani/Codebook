@@ -67,7 +67,7 @@ COMPLETE
 - covid-relief data sheet apr 17 copy.xlsx
 
 ### Lauren
-- CSR 2016_2017.xlsx
+- CSR 2016_2017.xlsx IN PROGRESS
 - CSR Spent 17-18 (1).xlsx
 - CSR Spent 17-18.xlsx
 - CSRExpenditureDetails_2015_16_29042017.xlsx
