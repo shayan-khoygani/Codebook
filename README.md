@@ -42,6 +42,7 @@ COMPLETE
 - Districts-20-.csv COMPLETE VERIFIED
 - Districts-10-.csv COMPLETE VERIFIED
 - Dadra & Nagar Haveli.xls COMPLETE VERIFIED
+- CSR 2016_2017.xlsx COMPLETE
 
 ### Patrick
 - 42621 Final_Data_ngodarpan.gov.in.xlsx IN PROGRESS
@@ -67,7 +68,6 @@ COMPLETE
 - covid-relief data sheet apr 17 copy.xlsx
 
 ### Lauren
-- CSR 2016_2017.xlsx IN PROGRESS
 - CSR Spent 17-18 (1).xlsx
 - CSR Spent 17-18.xlsx
 - CSRExpenditureDetails_2015_16_29042017.xlsx
