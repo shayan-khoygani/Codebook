@@ -3,8 +3,10 @@ Documenting existing raw data files of DaanMatch with information about location
 
 # Getting Started
 - Download AWS CLI and [Configure AWS Key and Secret](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html)
-- ```pip install boto3```
-- ```pip install s3fs```
+```
+pip install boto3
+pip install s3fs
+```
 
 - Load data from s3 [Tutorial by soumilshah1995](https://www.youtube.com/watch?v=2hfCRrmFcH0)
 1. To find path for data file, login to AWS console via IAM provided in Slack. 
