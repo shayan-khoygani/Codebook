@@ -48,6 +48,7 @@ Healthy
 
 ## COMPLETE
 - CSR 2016_2017.xlsx COMPLETE
+- Dadar_Nagar_Haveli_2016.xlsx COMPLETE
 
 ### Patrick
 - RAWConsolidated_NGO_list (1).csv IN PROGRESS
@@ -75,7 +76,6 @@ Healthy
 - CSR Spent 17-18 (1).xlsx
 - CSR Spent 17-18.xlsx
 - CSRExpenditureDetails_2015_16_29042017.xlsx
-- Dadar_Nagar_Haveli_2016.xlsx
 - Daman_and_Diu_2016.xlsx
 - DarpanBihar3192020.xlsx
 - Expenditure_Gov_India_2017-18_2019-20 (1).csv
