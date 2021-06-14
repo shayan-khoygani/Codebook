@@ -74,7 +74,6 @@ Healthy
 - covid-relief data sheet apr 17 copy.xlsx
 
 ### Lauren
-- CSR Spent 17-18 (1).xlsx
 - CSR Spent 17-18.xlsx
 - CSRExpenditureDetails_2015_16_29042017.xlsx
 - DarpanBihar3192020.xlsx IN PROGRESS
