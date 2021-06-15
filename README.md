@@ -27,8 +27,9 @@ Load data from s3 [Tutorial by soumilshah1995](https://www.youtube.com/watch?v=2
 3. Keep the format uniform until ```Columns```. You have the flexibility to present summary statistics/distributions in whichever format you think best.
 4. Document procedure with comments/markdown.
 5. Help us identify whether some raw data files are duplicates of each other.
-6. Add completed notebooks and HTML folder to the repository and add COMPLETE next to the entry in the README for review.
-7. Summarize notebook onto [google doc](https://docs.google.com/document/d/1gvOvektpmYQeWOvreYzMEHdHcE9J2ZtRva9f92SdYbY/edit)
+6. Summarize notebook onto [google doc](https://docs.google.com/document/d/1gvOvektpmYQeWOvreYzMEHdHcE9J2ZtRva9f92SdYbY/edit)
+7. Add completed notebooks and HTML folder to the repository.
+8. Move issue to Review column in Projects.
 
 # S3 Bucket: daanmatchdatafiles
 - biharselection.xlsx
