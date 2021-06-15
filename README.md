@@ -3,8 +3,10 @@ Documenting existing raw data files of DaanMatch with information about location
 
 # Getting Started
 - Download AWS CLI and [Configure AWS Key and Secret](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html)
-- ```pip install boto3```
-- ```pip install s3fs```
+```
+pip install boto3
+pip install s3fs
+```
 
 - Load data from s3 [Tutorial by soumilshah1995](https://www.youtube.com/watch?v=2hfCRrmFcH0)
 1. To find path for data file, login to AWS console via IAM provided in Slack. 
@@ -16,7 +18,7 @@ Documenting existing raw data files of DaanMatch with information about location
 If you cannot connect to s3. Download the file and reference the path there.
 
 # Codebook Instructions
-1. Follow the format in ```Andaman_Nicobar_Islands_2016``` and create a codebook that documents our raw data files.
+1. Follow the format in ```42621 Final_Data_ngodarpan.gov.in``` and create a codebook that documents our raw data files.
 2. Identify any issues with the dataset i.e. missing/invalid/duplicate values and summary statistics/distribution of each column if available. Include instructions on how to address the issues by dropping/imputing missing values, transformations (e.g. change units/dtype) etc.
 3. Keep the format uniform until ```Columns```. You have the flexibility to present summary statistics/distributions in whichever format you think best.
 4. Document procedure with comments/markdown.
@@ -34,17 +36,23 @@ We are working on transfering all files to AWS cloud, so we will fetch it from t
 Healthy
 
 # DataFiles
-COMPLETE
+## VERIFIED
+- 42621 Final_Data_ngodarpan.gov.in.xlsx COMPLETE VERIFIED
 - Andaman_Nicobar_Islands_2016.xlsx COMPLETE VERIFIED
 - Andhra Pradesh Gram Panchayat.xlsx COMPLETE VERIFIED
 - Districts-07-.csv COMPLETE VERIFIED
 - Districts--.csv COMPLETE VERIFIED
 - Districts-20-.csv COMPLETE VERIFIED
 - Districts-10-.csv COMPLETE VERIFIED
+- Dadra & Nagar Haveli.xls COMPLETE VERIFIED
+
+## COMPLETE
+- CSR 2016_2017.xlsx COMPLETE
+- Dadar_Nagar_Haveli_2016.xlsx COMPLETE
+- Daman_and_Diu_2016.xlsx COMPLETE
 
 ### Patrick
 - RAWConsolidated_NGO_list (1).csv IN PROGRESS
-- 42621 Final_Data_ngodarpan.gov.in.xlsx IN PROGRESS
 
 ### Ipsha
 - Andhra_Pradesh_2016.xlsx
@@ -66,14 +74,9 @@ COMPLETE
 - covid-relief data sheet apr 17 copy.xlsx
 
 ### Lauren
-- CSR 2016_2017.xlsx
-- CSR Spent 17-18 (1).xlsx
 - CSR Spent 17-18.xlsx
 - CSRExpenditureDetails_2015_16_29042017.xlsx
-- Dadar_Nagar_Haveli_2016.xlsx
-- Dadra & Nagar Haveli.xls
-- Daman_and_Diu_2016.xlsx
-- DarpanBihar3192020.xlsx
+- DarpanBihar3192020.xlsx IN PROGRESS
 - Expenditure_Gov_India_2017-18_2019-20 (1).csv
 - Expenditure_Gov_India_2017-18_2019-20 (2).csv
 - Expenditure_Gov_India_2017-18_2019-20.csv
