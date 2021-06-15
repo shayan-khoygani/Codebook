@@ -1,47 +1,41 @@
-# Codebook (Data Discovery)
-Documenting existing data files of DaanMatch about what data exists, where, who owns it, who uses it, and how to request access. 
+# Codebook
+Documenting existing raw data files of DaanMatch with information about location, owner, "version", source etc.
 
-## Project status
-Healthy
-
-## Folder directory
-Each folder contains the raw data + notebook, html, pdf version of its corresponding Jupyter notebook.
-
-# Requirements
+# Getting Started
 - Download AWS CLI and [Configure AWS Key and Secret](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html)
 ```
 pip install boto3
 pip install s3fs
 ```
 
-Load data from s3 [Tutorial by soumilshah1995](https://www.youtube.com/watch?v=2hfCRrmFcH0)
-1. Login to AWS console via IAM.
+- Load data from s3 [Tutorial by soumilshah1995](https://www.youtube.com/watch?v=2hfCRrmFcH0)
+1. To find path for data file, login to AWS console via IAM provided in Slack. 
 2. Go to S3 under all services.
 3. Go to daanmatchdatafiles bucket.
 4. Go to DaanMatch_DataFiles/ folder.
 5. Click a file and find the corresponding S3 URI.
 
+If you cannot connect to s3. Download the file and reference the path there.
+
 # Codebook Instructions
-1. Follow the format in ```42621 Final_Data_ngodarpan.gov.in``` folder. 
+1. Follow the format in ```42621 Final_Data_ngodarpan.gov.in``` and create a codebook that documents our raw data files.
 2. Identify any issues with the dataset i.e. missing/invalid/duplicate values and summary statistics/distribution of each column if available. Include instructions on how to address the issues by dropping/imputing missing values, transformations (e.g. change units/dtype) etc.
 3. Keep the format uniform until ```Columns```. You have the flexibility to present summary statistics/distributions in whichever format you think best.
 4. Document procedure with comments/markdown.
 5. Help us identify whether some raw data files are duplicates of each other.
-6. Add completed notebooks and HTML folder to the repository and add COMPLETE next to the entry in the README for review.
-7. Summarize notebook onto [google doc](https://docs.google.com/document/d/1gvOvektpmYQeWOvreYzMEHdHcE9J2ZtRva9f92SdYbY/edit)
+6. After you're done with a datafile, please add it's folder to the repository and add COMPLETE next to the entry from the DataFiles list below.
+7. Summarize codebook onto [google doc](https://docs.google.com/document/d/1gvOvektpmYQeWOvreYzMEHdHcE9J2ZtRva9f92SdYbY/edit)
 
-# S3 Bucket: daanmatchdatafiles
+Message in the #codebook channel is slack for any issues.
 
+## Folder directory
+Each folder contains the raw data + notebook, html, pdf version of its corresponding codebook.  
+We are working on transfering all files to AWS cloud, so we will fetch it from there in the future. For now, we will have a duplicate stored in the repository, so it can be loaded into the notebooks.
 
+## Project status
+Healthy
 
-## corporation_list_by_state_2016/
-- Andaman_Nicobar_Islands_2016.xlsx
-- Andhra_Pradesh_2016.xlsx
-- Arunachal_Pradesh_2016.xlsx
-- Bihar_2016.xlsx
-- Chandigarh_2016.xlsx
-- 
-
+# DataFiles
 ## VERIFIED
 - 42621 Final_Data_ngodarpan.gov.in.xlsx COMPLETE VERIFIED
 - Andaman_Nicobar_Islands_2016.xlsx COMPLETE VERIFIED
