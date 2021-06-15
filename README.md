@@ -37,7 +37,6 @@ Load data from s3 [Tutorial by soumilshah1995](https://www.youtube.com/watch?v=2
 - Consolidated_NGO_addresses.xlsx
 - Consolidated_NGO_list.xlsx
 - Copy of Online Donations For COVID In Pakistan (1).xlsx
-- copyFinal_Data_csr.gov.in.xlsx
 - covid-relief data sheet apr 17 copy.xlsx
 - CSR 2016_2017.xlsx COMPLETE
 - CSR Spent 17-18.xlsx
@@ -102,7 +101,8 @@ Load data from s3 [Tutorial by soumilshah1995](https://www.youtube.com/watch?v=2
 - Bihar Gram Panchayat.xlsx
 - Chhattisgarh Gram Panchayat.xlsx
 
-# DELETED
+# Archive (removed files
+- DarpanBihar3192020.xlsx
 - Districts-07-.csv COMPLETE 
 - Districts--.csv COMPLETE 
 - Districts-20-.csv COMPLETE 
