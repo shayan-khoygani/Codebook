@@ -40,10 +40,10 @@ Healthy
 - 42621 Final_Data_ngodarpan.gov.in.xlsx COMPLETE VERIFIED
 - Andaman_Nicobar_Islands_2016.xlsx COMPLETE VERIFIED
 - Andhra Pradesh Gram Panchayat.xlsx COMPLETE VERIFIED
-- Districts-07-.csv COMPLETE VERIFIED
-- Districts--.csv COMPLETE VERIFIED
-- Districts-20-.csv COMPLETE VERIFIED
-- Districts-10-.csv COMPLETE VERIFIED
+- Districts-07-.csv COMPLETE REMOVED
+- Districts--.csv COMPLETE REMOVED
+- Districts-20-.csv COMPLETE REMOVED
+- Districts-10-.csv COMPLETE REMOVED
 - Dadra & Nagar Haveli.xls COMPLETE VERIFIED
 
 ## COMPLETE
@@ -65,7 +65,6 @@ Healthy
 - Chandigarh_2016.xlsx
 - Chattisgarh_2016.xlsx
 - Chhattisgarh Gram Panchayat.xlsx
-- Closed_during_the_month_(Registeration_Closure)_1 (1).xls
 - Closed_during_the_month_(Registeration_Closure)_1.xls
 - Consolidated_NGO_addresses.xlsx
 - Consolidated_NGO_list.xlsx
@@ -77,8 +76,6 @@ Healthy
 - CSR Spent 17-18.xlsx
 - CSRExpenditureDetails_2015_16_29042017.xlsx
 - DarpanBihar3192020.xlsx IN PROGRESS
-- Expenditure_Gov_India_2017-18_2019-20 (1).csv
-- Expenditure_Gov_India_2017-18_2019-20 (2).csv
 - Expenditure_Gov_India_2017-18_2019-20.csv
 - Final details proforma_panchayat.xlsx
 
@@ -86,13 +83,7 @@ Healthy
 - Final_Data_csr.gov.in.xlsx
 - Final_Data_givingtuesdayindia.org (1).xlsx
 - Final_Data_givingtuesdayindia.org.xlsx
-- Final_Data_Globalgiving.org.xlsx
-- Final_Data_Indiangoslist_v1.com.xlsx
-- Final_Data_Indiangoslist.com.xlsx
 - Goa_2016.xlsx
-- imf-dm-export-20200923.xls
-- State-UT wise List of Gram Panchayats Not Covered as on 30.06.2019.pdf
-- statistic_id240551_global-survey_-share-who-want-to-help-people-less-fortunate-than-themsleves-in-2012.xlsx
 - Uttarakhand_2016.xlsx
 - West_Bengal_2016.xlsx
 #### Inside ```from Shekhar``` folder (add Shekar to folder name because these may be duplicates to #4):
