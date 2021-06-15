@@ -102,7 +102,8 @@ Load data from s3 [Tutorial by soumilshah1995](https://www.youtube.com/watch?v=2
 - Bihar Gram Panchayat.xlsx
 - Chhattisgarh Gram Panchayat.xlsx
 
-# DELETED
+# Archive (removed files
+- DarpanBihar3192020.xlsx
 - Districts-07-.csv COMPLETE 
 - Districts--.csv COMPLETE 
 - Districts-20-.csv COMPLETE 
