@@ -37,7 +37,6 @@ Load data from s3 [Tutorial by soumilshah1995](https://www.youtube.com/watch?v=2
 - Consolidated_NGO_addresses.xlsx
 - Consolidated_NGO_list.xlsx
 - Copy of Online Donations For COVID In Pakistan (1).xlsx
-- copyFinal_Data_csr.gov.in.xlsx
 - covid-relief data sheet apr 17 copy.xlsx
 - CSR 2016_2017.xlsx COMPLETE
 - CSR Spent 17-18.xlsx
