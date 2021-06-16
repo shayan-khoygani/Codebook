@@ -38,7 +38,7 @@ Load data from s3 [Tutorial by soumilshah1995](https://www.youtube.com/watch?v=2
 - Consolidated_NGO_list.xlsx
 - Copy of Online Donations For COVID In Pakistan (1).xlsx
 - CSR 2016_2017.xlsx COMPLETE
-- CSR Spent 17-18.xlsx
+- CSR Spent 17-18.xlsx COMPLETE
 - CSRExpenditureDetails_2015_16_29042017.xlsx
 - Dadra & Nagar Haveli.xls COMPLETE
 - Expenditure_Gov_India_2017-18_2019-20.csv
