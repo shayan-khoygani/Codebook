@@ -40,9 +40,9 @@ Load data from s3 [Tutorial by soumilshah1995](https://www.youtube.com/watch?v=2
 - CSR Spent 17-18.xlsx COMPLETE
 - CSRExpenditureDetails_2015_16_29042017.xlsx
 - Dadra & Nagar Haveli.xls COMPLETE
-- Expenditure_Gov_India_2017-18_2019-20.csv
+- Expenditure_Gov_India_2017-18_2019-20.csv COMPLETE
 - Final_Data_csr.gov.in.xlsx COMPLETE
-- Goa proforma_panchayat.xlsx
+- Goa proforma_panchayat.xlsx COMPLETE
 - RAWCosolidated NGO list.xlsx
 
 ## corporation_list_by_state_2016/
