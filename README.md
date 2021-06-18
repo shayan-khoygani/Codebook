@@ -32,7 +32,6 @@ Load data from s3 [Tutorial by soumilshah1995](https://www.youtube.com/watch?v=2
 8. Move issue to Review column in Projects.
 
 # S3 Bucket: daanmatchdatafiles
-- biharselection.xlsx
 - Closed_during_the_month_(Registeration_Closure)_1.xls
 - Consolidated_NGO_addresses.xlsx
 - Consolidated_NGO_list.xlsx
@@ -101,6 +100,7 @@ Load data from s3 [Tutorial by soumilshah1995](https://www.youtube.com/watch?v=2
 - Chhattisgarh Gram Panchayat.xlsx
 
 # Archive (removed files)
+- biharselection.xlsx
 - DarpanBihar3192020.xlsx
 - Districts-07-.csv COMPLETE 
 - Districts--.csv COMPLETE 
