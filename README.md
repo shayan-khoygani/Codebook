@@ -4,6 +4,11 @@ Documenting existing data files of DaanMatch about what data exists, where, who 
 ## Project status
 Healthy
 
+## [Output](https://drawsql.app/daanmatch/diagrams/data-model)
+Built a data model for NGO information based on documentation done in this project.
+<img width="936" alt="Screen Shot 2021-06-21 at 23 27 03" src="https://user-images.githubusercontent.com/70539478/122874760-38ac6580-d2e8-11eb-8de2-8d22e3a0b931.png">
+
+
 ## Folder directory
 Each folder contains the raw data + notebook, html, pdf version of its corresponding Jupyter notebook.
 
