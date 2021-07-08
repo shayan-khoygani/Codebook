@@ -1,4 +1,4 @@
-# Codebook (Data Discovery)
+# Codebook (Data Provenance)
 Documenting existing data files of DaanMatch about what data exists, where, who owns it, who uses it, and how to request access. 
 
 ## Project status
