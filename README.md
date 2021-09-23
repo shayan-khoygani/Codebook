@@ -17,7 +17,7 @@ Load data from s3 [Tutorial by soumilshah1995](https://www.youtube.com/watch?v=2
 5. Click a file and find the corresponding S3 URI.
 
 # Instructions
-1. Follow the format in ```42621 Final_Data_ngodarpan.gov.in``` folder. 
+1. Follow the format in ```42621 Final_Data_ngodarpan.gov.in``` [folder](https://github.com/DaanMatch/Codebook/tree/main/%5BDIR%5D%20Darpan21FCRA/42621%20Final_Data_ngodarpan.gov.in). 
 2. Identify any issues with the dataset i.e. missing/invalid/duplicate values and summary statistics/distribution of each column if available. Include instructions on how to address the issues by dropping/imputing missing values, transformations (e.g. change units/dtype) etc.
 3. Keep the format uniform until ```Columns```. You have the flexibility to present summary statistics/distributions in whichever format you think best.
 4. Document procedure with comments/markdown.
