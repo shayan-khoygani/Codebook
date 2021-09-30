@@ -1,17 +1,8 @@
-# Codebook (Data Provenance)
+# Codebook (Data Provenance) 
 Documenting existing data files of DaanMatch about what data exists, where, who owns it, who uses it, and how to request access. 
 
-## Project status
-Healthy
-
-## [Output](https://drawsql.app/daanmatch/diagrams/data-model)
-Built a data model for NGO information based on documentation done in this project.
-<img width="1286" alt="Screen Shot 2021-06-28 at 15 28 50" src="https://user-images.githubusercontent.com/70539478/123711581-8f082f80-d825-11eb-81c6-662e2d78725c.png">
-
-## Folder directory
-Each folder contains the raw data + notebook, html, pdf version of its corresponding Jupyter notebook.
-
 # Requirements
+We will be connecting to our files stored on AWS S3. Please set up your AWS CLI.
 - Download AWS CLI and [Configure AWS Key and Secret](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html)
 ```
 pip install boto3
@@ -25,8 +16,8 @@ Load data from s3 [Tutorial by soumilshah1995](https://www.youtube.com/watch?v=2
 4. Go to DaanMatch_DataFiles/ folder.
 5. Click a file and find the corresponding S3 URI.
 
-# Codebook Instructions
-1. Follow the format in ```42621 Final_Data_ngodarpan.gov.in``` folder. 
+# Instructions
+1. Follow the format in ```42621 Final_Data_ngodarpan.gov.in``` [folder](https://github.com/DaanMatch/Codebook/tree/main/%5BDIR%5D%20Darpan21FCRA/42621%20Final_Data_ngodarpan.gov.in). 
 2. Identify any issues with the dataset i.e. missing/invalid/duplicate values and summary statistics/distribution of each column if available. Include instructions on how to address the issues by dropping/imputing missing values, transformations (e.g. change units/dtype) etc.
 3. Keep the format uniform until ```Columns```. You have the flexibility to present summary statistics/distributions in whichever format you think best.
 4. Document procedure with comments/markdown.
@@ -35,7 +26,10 @@ Load data from s3 [Tutorial by soumilshah1995](https://www.youtube.com/watch?v=2
 7. Add completed notebooks and HTML folder to the repository.
 8. Move issue to Review column in Projects.
 
-# S3 Bucket: daanmatchdatafiles
+# Folder directory
+Each folder contains the raw data + notebook, html, pdf version of its corresponding Jupyter notebook.
+
+## S3 Bucket: daanmatchdatafiles
 - Closed_during_the_month_(Registeration_Closure)_1.xls
 - Consolidated_NGO_addresses.xlsx
 - Consolidated_NGO_list.xlsx
@@ -49,7 +43,7 @@ Load data from s3 [Tutorial by soumilshah1995](https://www.youtube.com/watch?v=2
 - Goa proforma_panchayat.xlsx COMPLETE
 - RAWCosolidated NGO list.xlsx
 
-## corporation_list_by_state_2016/
+### corporation_list_by_state_2016/
 - Andaman_Nicobar_Islands_2016.xlsx COMPLETE
 - Andhra_Pradesh_2016.xlsx 
 - Arunachal_Pradesh_2016.xlsx
@@ -84,26 +78,26 @@ Load data from s3 [Tutorial by soumilshah1995](https://www.youtube.com/watch?v=2
 - Uttarakhand_2016.xlsx
 - West_Bengal_2016.xlsx
 
-## Darpan21FCRA/
+### Darpan21FCRA/
 - 2019Final_Data_ngodarpan.gov.in.xlsx
 - 42621 Final_Data_ngodarpan.gov.in.xlsx COMPLETE
 - Consolidated_NGO_list.csv
 - FCRA - Sheet1.csv
 
-## from Shekhar/
+### from Shekhar/
 - Final_Data_givingtuesdayindia.org.xlsx
 - Final_Data_Globalgiving.org.xlsx
 - Final_Data_Indiangoslist_v1.com.xlsx
 - Final_Data_ngodarpan.gov.in.xlsx
 - Final_Data_ngoimpact.com.xlsx
 
-## gram_panchayat/
+### gram_panchayat/
 - Assam GP.xls
 - Andhra Pradesh Gram Panchayat.xlsx COMPLETE
 - Bihar Gram Panchayat.xlsx
 - Chhattisgarh Gram Panchayat.xlsx
 
-# Archive (removed files)
+## Archive (removed files)
 - biharselection.xlsx
 - DarpanBihar3192020.xlsx
 - Districts-07-.csv COMPLETE 
