@@ -12,6 +12,14 @@ pip install s3fs
 
 ## Load data from s3 [Tutorial by soumilshah1995](https://www.youtube.com/watch?v=2hfCRrmFcH0)
 
+```
+client = boto3.client('s3')
+obj = client.get_object(Bucket='daanmatchdatafiles', Key=FILEPATH)
+# Excel
+df = pd.read_excel(io.BytesIO(obj['Body'].read()))
+# CSV
+df = pd.read_csv(io.BytesIO(obj['Body'].read()), low_memory=False)
+```
 
 
 ## Instructions
