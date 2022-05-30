@@ -1,10 +1,13 @@
-# Codebook (Data Provenance) 
-Documenting existing data files of DaanMatch about what data exists, where, who owns it, who uses it, and how to request access. 
+# Codebook (Data Provenance)
+
+Documenting existing data files of DaanMatch about what data exists, where, who owns it, who uses it, and how to request access.
 
 ## Requirements
 
 We will be connecting to our files stored on AWS S3. Please set up your AWS CLI.
+
 - Download AWS CLI and [Configure AWS Key and Secret](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html)
+
 ```
 pip install boto3
 pip install s3fs
@@ -21,9 +24,9 @@ df = pd.read_excel(io.BytesIO(obj['Body'].read()))
 df = pd.read_csv(io.BytesIO(obj['Body'].read()), low_memory=False)
 ```
 
-
 ## Instructions
-1. Follow the format in [folder](https://github.com/DaanMatch/Codebook/blob/main/Closed_during_the_month_(Registeration_Closure).xls.xlsx/Closed_during_the_month_(Registeration_Closure).xls.ipynb). 
+
+1. Follow the format in [folder](https://github.com/DaanMatch/Codebook/blob/main/Closed_during_the_month_(Registeration_Closure).xls.xlsx/Closed_during_the_month_(Registeration_Closure).xls.ipynb).
 2. Identify any issues with the dataset i.e. missing/invalid/duplicate values and summary statistics/distribution of each column if available. Include instructions on how to address the issues by dropping/imputing missing values, transformations (e.g. change units/dtype) etc.
 3. Keep the format uniform until ```Columns```. You have the flexibility to present summary statistics/distributions in whichever format you think best.
 4. Document procedure with comments/markdown.
@@ -33,9 +36,11 @@ df = pd.read_csv(io.BytesIO(obj['Body'].read()), low_memory=False)
 8. Move issue to Review column in Projects.
 
 ## Folder directory
+
 Each folder contains the raw data + notebook, html, pdf version of its corresponding Jupyter notebook.
 
 ### S3 Bucket: daanmatchdatafiles
+
 - Closed_during_the_month_(Registeration_Closure)_1.xls
 - Consolidated_NGO_addresses.xlsx
 - Consolidated_NGO_list.xlsx
@@ -50,8 +55,9 @@ Each folder contains the raw data + notebook, html, pdf version of its correspon
 - RAWCosolidated NGO list.xlsx
 
 #### corporation_list_by_state_2016/
+
 - Andaman_Nicobar_Islands_2016.xlsx COMPLETE
-- Andhra_Pradesh_2016.xlsx 
+- Andhra_Pradesh_2016.xlsx
 - Arunachal_Pradesh_2016.xlsx
 - Bihar_2016.xlsx
 - Chandigarh_2016.xlsx
@@ -85,12 +91,14 @@ Each folder contains the raw data + notebook, html, pdf version of its correspon
 - West_Bengal_2016.xlsx
 
 #### Darpan21FCRA/
+
 - 2019Final_Data_ngodarpan.gov.in.xlsx
 - 42621 Final_Data_ngodarpan.gov.in.xlsx COMPLETE
 - Consolidated_NGO_list.csv
 - FCRA - Sheet1.csv
 
 #### from Shekhar/
+
 - Final_Data_givingtuesdayindia.org.xlsx
 - Final_Data_Globalgiving.org.xlsx
 - Final_Data_Indiangoslist_v1.com.xlsx
@@ -98,15 +106,17 @@ Each folder contains the raw data + notebook, html, pdf version of its correspon
 - Final_Data_ngoimpact.com.xlsx
 
 #### gram_panchayat/
+
 - Assam GP.xls
 - Andhra Pradesh Gram Panchayat.xlsx COMPLETE
 - Bihar Gram Panchayat.xlsx
 - Chhattisgarh Gram Panchayat.xlsx
 
 ### Archive (removed files)
+
 - biharselection.xlsx
 - DarpanBihar3192020.xlsx
-- Districts-07-.csv COMPLETE 
-- Districts--.csv COMPLETE 
-- Districts-20-.csv COMPLETE 
-- Districts-10-.csv COMPLETE 
+- Districts-07-.csv COMPLETE
+- Districts--.csv COMPLETE
+- Districts-20-.csv COMPLETE
+- Districts-10-.csv COMPLETE
